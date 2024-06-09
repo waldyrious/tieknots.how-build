@@ -35,11 +35,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="./site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="./site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="./site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="./site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>tl;dr: A <a href="ties.html">tie knot generation toy</a> by Mikael Vejdemo-Johansson.</p>
+<p>tl;dr: A <a href="./ties.html">tie knot generation toy</a> by Mikael Vejdemo-Johansson.</p>
 <section id="whats-this-all-about" class="level2">
 <h2 class="anchored" data-anchor-id="whats-this-all-about">What’s this all about?</h2>
 <p>In 2000, Cambridge physicists Fink and Mao figured out a way to list all possible tie knots. They did it by creating a <i>formal language</i> to describe tie knots. However, they limited their language to fit their idea of a tie knot: tied with the broad blade, and finished with a flat front.</p>
@@ -152,8 +152,8 @@ ul.task-list li input[type="checkbox"] {
 <p>T is a clockwise (turnwise) move of the knot-tying blade, W is a counter-clockwise move, and U tucks the blade under a previous bow. Whether to start with an inwards or outwards crossing can be deduced by counting the total number of W and T in the knot description string, and all possible strings in W and T produce possible tie knots.</p>
 <p>For known and named tie knots, we have compiled a <a href="./knownties.html">list of different notations and enumerations</a>.</p>
 <p>We have a preprint on these results up on the <a href="http://arxiv.org/abs/1401.8242">arXiv</a>, and a final paper published at PeerJ Computer Science: <a href="https://peerj.com/articles/cs-2/">More Ties than we thought</a>.</p>
-<p>In the <a href="ties.html">tie knot generator</a> we provide a generator that picks out a random knot from our enumeration, and picks a random subset of the possible places where a U could be placed. It displays a sequence of knotting cartoons to show how to tie that particular knot. Every tie knot here starts with crossing the <em>active</em> blade over or under the other blade, and the first instruction assumes you have done this in a way that places the seam of the tie as indicated in that picture.</p>
-<p>You can explore the tie knot grammars and try to piece together a tie knot of your own. We have built interactive explorers for the <a href="explore-finkmao.html">original language by Fink and Mao</a> and for the <a href="explore-singly.html">Singly Tucked tie-knot language</a> that includes more modern and more complicated knots. We have a third interactive explorer for the <a href="explore-full.html">Full tie-knot language</a></p>
+<p>In the <a href="./ties.html">tie knot generator</a> we provide a generator that picks out a random knot from our enumeration, and picks a random subset of the possible places where a U could be placed. It displays a sequence of knotting cartoons to show how to tie that particular knot. Every tie knot here starts with crossing the <em>active</em> blade over or under the other blade, and the first instruction assumes you have done this in a way that places the seam of the tie as indicated in that picture.</p>
+<p>You can explore the tie knot grammars and try to piece together a tie knot of your own. We have built interactive explorers for the <a href="./explore-finkmao.html">original language by Fink and Mao</a> and for the <a href="./explore-singly.html">Singly Tucked tie-knot language</a> that includes more modern and more complicated knots. We have a third interactive explorer for the <a href="./explore-full.html">Full tie-knot language</a></p>
 <p>You can to read the grammars we specified, and their corresponding knot counts and generating functions at our <a href="./grammar.html">grammar page</a>.</p>
 </section>
 <section id="references" class="level2">
