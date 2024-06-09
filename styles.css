@@ -1,7 +1,7 @@
 /* css styles */
 
 /* Customize exernal links */
-a:not([href*="tieknots.how"]):not([href^="./"])
+a:not([href*="tieknots.how"]):not([href^="./"]):not([href^="#"])
 {
 	color: RoyalBlue;
 	&::after {
