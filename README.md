@@ -2,7 +2,7 @@
 
 This repository hosts a copy of the source code for <https://tieknots.how>,
 with a few minor corrections, and adjustments to make it work locally (offline).
-This copy is automatically published via GitHub Pages to <https://waldyrious.github.io/tieknots.how>.
+This copy is automatically published via GitHub Pages to <https://waldyrious.github.io/tieknots.how-build>.
 
 The author of `tieknots.how` is Mikael Vejdemo-Johansson (@michiexile).
 
